@@ -1,10 +1,10 @@
 <!-- BEGIN: MAIN -->
 		<div id="homenews">
 			<!-- IF {INDEX_NEWS} -->
-			<div class="block">
+			<section>
 				<h2 class="news">{PHP.L.News}</h2>
 				{INDEX_NEWS}
-			</div>
+			</section>
 			<!-- ENDIF -->
 		</div>
 
@@ -43,7 +43,7 @@
 		</aside>
 
 		<!-- IF {PHP.cot_plugins_active.recentitems} -->
-		<div class="clear block">
+		<section class="clear">
 			<h2 class="warning"><a href="{PHP|cot_url('plug','e=recentitems')}">{PHP.L.recentitems_title}</a></h2>
 			<!-- IF {RECENT_PAGES} -->
 			<h3>{PHP.L.recentitems_pages}</h3>
@@ -57,7 +57,7 @@
 			<!-- ELSE -->
 			<div class="warning">{PHP.L.recentitems_nonewposts}</div>
 			<!-- ENDIF -->
-		</div>
+		</section>
 		<!-- ENDIF -->
 
 <!-- END: MAIN -->

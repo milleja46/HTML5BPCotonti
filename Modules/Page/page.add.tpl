@@ -1,6 +1,6 @@
 <!-- BEGIN: MAIN -->
 
-		<div class="block">
+		<section>
 			<h2 class="page">{PAGEADD_PAGETITLE}</h2>
 			{FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
 			<form action="{PAGEADD_FORM_SEND}" enctype="multipart/form-data" method="post" name="pageform">
@@ -92,7 +92,7 @@
 					</tr>
 				</table>
 			</form>
-		</div>
+		</section>
 		<div class="help">{PHP.L.page_formhint}</div>
 
 <!-- END: MAIN -->
